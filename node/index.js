@@ -9,17 +9,17 @@ app.get('/', (req, res)=>{
 	res.send('Sample Application: Hello World!');
 });
 
-const hobbies = [ 'Swimming', 'Diving', 'Jogging', 'Cooking', 'Singing' ];
+const hobbies = [ 'Swimming', 'Diving',  'Cooking', 'Singing' ];
 
 app.get('/hobbies', (req, res)=>{
 	res.send(hobbies);
 });
 
 app.get('/status', (req, res)=>{
-	res.send('OK, all good!');
+	res.send('OK, all good dude!');
 });
 
 app.get('/colors', (req, res)=>{
-	res.send(['red','green','blue','yellow','purple', 'magenta', 'black', 'white']);
+	res.send(['blue','yellow','purple', 'magenta', 'black', 'white']);
 });
 
