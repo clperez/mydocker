@@ -1,4 +1,5 @@
 Code/
 node_modules/
-.vagrant/
 .vagrant
+bin
+obj
